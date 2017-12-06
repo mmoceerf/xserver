@@ -299,17 +299,11 @@ extern _X_EXPORT void miPolyPoint(DrawablePtr /*pDrawable */ ,
 
 /* mipolyrect.c */
 
-extern  void miPolyRectangle(DrawablePtr /*pDraw */ ,
+extern _X_EXPORT void miPolyRectangle(DrawablePtr /*pDraw */ ,
                                       GCPtr /*pGC */ ,
                                       int /*nrects */ ,
                                       xRectangle *      /*pRects */
     );
-
-extern	void miPolyRectangle2(DrawablePtr /*pDraw */ ,
-																			GCPtr /*pGC */ ,
-																			int /*nrects */ ,
-																			xRectangle *			/*pRects */
-		);
 
 /* mipolyseg.c */
 

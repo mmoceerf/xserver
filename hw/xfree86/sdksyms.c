@@ -1962,38 +1962,37 @@ _X_HIDDEN void *xorg_symbols[] = {
     (void *) &miFillPolygon,                                     /* ../../mi/mi.h:283 */
     (void *) &miPolyPoint,                                       /* ../../mi/mi.h:293 */
     (void *) &miPolyRectangle,                                   /* ../../mi/mi.h:302 */
-    (void *) &miPolyRectangle2,                                  /* ../../mi/mi.h:308 */
-    (void *) &miPolySegment,                                     /* ../../mi/mi.h:316 */
-    (void *) &miPolyText8,                                       /* ../../mi/mi.h:324 */
-    (void *) &miPolyText16,                                      /* ../../mi/mi.h:332 */
-    (void *) &miImageText8,                                      /* ../../mi/mi.h:340 */
-    (void *) &miImageText16,                                     /* ../../mi/mi.h:348 */
-    (void *) &miPushPixels,                                      /* ../../mi/mi.h:358 */
-    (void *) &miModifyPixmapHeader,                              /* ../../mi/mi.h:369 */
-    (void *) &miCreateScreenResources,                           /* ../../mi/mi.h:378 */
-    (void *) &miScreenDevPrivateInit,                            /* ../../mi/mi.h:381 */
-    (void *) &miScreenInit,                                      /* ../../mi/mi.h:386 */
-    (void *) &miShapedWindowIn,                                  /* ../../mi/mi.h:403 */
-    (void *) &miValidateTree,                                    /* ../../mi/mi.h:410 */
-    (void *) &miWideLine,                                        /* ../../mi/mi.h:415 */
-    (void *) &miWideDash,                                        /* ../../mi/mi.h:422 */
-    (void *) &miPolylines,                                       /* ../../mi/mi.h:429 */
-    (void *) &miClearToBackground,                               /* ../../mi/mi.h:437 */
-    (void *) &miMarkWindow,                                      /* ../../mi/mi.h:445 */
-    (void *) &miMarkOverlappedWindows,                           /* ../../mi/mi.h:448 */
-    (void *) &miHandleValidateExposures,                         /* ../../mi/mi.h:453 */
-    (void *) &miMoveWindow,                                      /* ../../mi/mi.h:456 */
-    (void *) &miResizeWindow,                                    /* ../../mi/mi.h:463 */
-    (void *) &miGetLayerWindow,                                  /* ../../mi/mi.h:471 */
-    (void *) &miSetShape,                                        /* ../../mi/mi.h:474 */
-    (void *) &miChangeBorderWidth,                               /* ../../mi/mi.h:478 */
-    (void *) &miMarkUnrealizedWindow,                            /* ../../mi/mi.h:482 */
-    (void *) &miSpriteTrace,                                     /* ../../mi/mi.h:487 */
-    (void *) &miXYToWindow,                                      /* ../../mi/mi.h:489 */
-    (void *) &miZeroPolyArc,                                     /* ../../mi/mi.h:493 */
-    (void *) &miZeroLine,                                        /* ../../mi/mi.h:501 */
-    (void *) &miZeroDashLine,                                    /* ../../mi/mi.h:508 */
-    (void *) &miPolyFillArc,                                     /* ../../mi/mi.h:515 */
+    (void *) &miPolySegment,                                     /* ../../mi/mi.h:310 */
+    (void *) &miPolyText8,                                       /* ../../mi/mi.h:318 */
+    (void *) &miPolyText16,                                      /* ../../mi/mi.h:326 */
+    (void *) &miImageText8,                                      /* ../../mi/mi.h:334 */
+    (void *) &miImageText16,                                     /* ../../mi/mi.h:342 */
+    (void *) &miPushPixels,                                      /* ../../mi/mi.h:352 */
+    (void *) &miModifyPixmapHeader,                              /* ../../mi/mi.h:363 */
+    (void *) &miCreateScreenResources,                           /* ../../mi/mi.h:372 */
+    (void *) &miScreenDevPrivateInit,                            /* ../../mi/mi.h:375 */
+    (void *) &miScreenInit,                                      /* ../../mi/mi.h:380 */
+    (void *) &miShapedWindowIn,                                  /* ../../mi/mi.h:397 */
+    (void *) &miValidateTree,                                    /* ../../mi/mi.h:404 */
+    (void *) &miWideLine,                                        /* ../../mi/mi.h:409 */
+    (void *) &miWideDash,                                        /* ../../mi/mi.h:416 */
+    (void *) &miPolylines,                                       /* ../../mi/mi.h:423 */
+    (void *) &miClearToBackground,                               /* ../../mi/mi.h:431 */
+    (void *) &miMarkWindow,                                      /* ../../mi/mi.h:439 */
+    (void *) &miMarkOverlappedWindows,                           /* ../../mi/mi.h:442 */
+    (void *) &miHandleValidateExposures,                         /* ../../mi/mi.h:447 */
+    (void *) &miMoveWindow,                                      /* ../../mi/mi.h:450 */
+    (void *) &miResizeWindow,                                    /* ../../mi/mi.h:457 */
+    (void *) &miGetLayerWindow,                                  /* ../../mi/mi.h:465 */
+    (void *) &miSetShape,                                        /* ../../mi/mi.h:468 */
+    (void *) &miChangeBorderWidth,                               /* ../../mi/mi.h:472 */
+    (void *) &miMarkUnrealizedWindow,                            /* ../../mi/mi.h:476 */
+    (void *) &miSpriteTrace,                                     /* ../../mi/mi.h:481 */
+    (void *) &miXYToWindow,                                      /* ../../mi/mi.h:483 */
+    (void *) &miZeroPolyArc,                                     /* ../../mi/mi.h:487 */
+    (void *) &miZeroLine,                                        /* ../../mi/mi.h:495 */
+    (void *) &miZeroDashLine,                                    /* ../../mi/mi.h:502 */
+    (void *) &miPolyFillArc,                                     /* ../../mi/mi.h:509 */
     (void *) &miChangeGC,                                        /* ../../mi/migc.h:29 */
     (void *) &miDestroyGC,                                       /* ../../mi/migc.h:32 */
     (void *) &miDestroyClip,                                     /* ../../mi/migc.h:34 */

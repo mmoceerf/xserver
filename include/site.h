@@ -120,7 +120,7 @@ SOFTWARE.
 #define DEFAULT_LOG_VERBOSITY		0
 #endif
 #ifndef DEFAULT_LOG_FILE_VERBOSITY
-#define DEFAULT_LOG_FILE_VERBOSITY	20
+#define DEFAULT_LOG_FILE_VERBOSITY	3
 #endif
 
 #endif                          /* SITE_H */
