@@ -132,9 +132,9 @@ extern void mydd(void);
 void loadMe(void)
 {
 	ErrorF("loadMe\n");
-
+/*
 	mydd();
-	dlopen(NULL,RTLD_NOW|RTLD_GLOBAL);
+	dlopen(NULL,RTLD_NOW|RTLD_GLOBAL); */
 }
 
 

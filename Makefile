@@ -14,6 +14,7 @@
 
 
 
+
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -258,17 +259,17 @@ AUTOMAKE = ${SHELL} /home/wd/xserver/xorg-server-1.18.4/missing automake-1.15
 AWK = mawk
 BASE_CFLAGS =  -Wall -Wpointer-arith -Wmissing-declarations -Wformat=2 -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wbad-function-cast -Wold-style-definition -Wdeclaration-after-statement -Wunused -Wuninitialized -Wshadow -Wmissing-noreturn -Wmissing-format-attribute -Wredundant-decls -Wlogical-op -Werror=implicit -Werror=nonnull -Werror=init-self -Werror=main -Werror=missing-braces -Werror=sequence-point -Werror=return-type -Werror=trigraphs -Werror=array-bounds -Werror=write-strings -Werror=address -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast
 BASE_FONT_PATH = /usr/share/fonts/X11
-BUILD_DATE = 20171205
-BUILD_TIME = 1224815
+BUILD_DATE = 20171206
+BUILD_TIME = 1163620
 BUNDLE_ID_PREFIX = 
 BUNDLE_VERSION = 1.18.4
 BUNDLE_VERSION_STRING = 1.18.4
 CC = gcc
 CCAS = gcc
 CCASDEPMODE = depmode=gcc3
-CCASFLAGS = -fgnu89-inline
+CCASFLAGS = -g -O2
 CCDEPMODE = depmode=gcc3
-CFLAGS = -fgnu89-inline
+CFLAGS = -g -O2
 CHANGELOG_CMD = (GIT_DIR=$(top_srcdir)/.git git log > $(top_srcdir)/.changelog.tmp && mv $(top_srcdir)/.changelog.tmp $(top_srcdir)/ChangeLog) || (rm -f $(top_srcdir)/.changelog.tmp; touch $(top_srcdir)/ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 COMPILEDDEFAULTFONTPATH = /usr/share/fonts/X11/misc/,/usr/share/fonts/X11/TTF/,/usr/share/fonts/X11/OTF/,/usr/share/fonts/X11/Type1/,/usr/share/fonts/X11/100dpi/,/usr/share/fonts/X11/75dpi/
 CPP = gcc -E
@@ -358,7 +359,7 @@ KHRONOS_OPENGL_REGISTRY_LIBS =
 KHRONOS_SPEC_DIR = auto
 LD = /usr/bin/ld
 LDFLAGS = 
-LD_EXPORT_SYMBOLS_FLAG = -export-dynamic -rdynamic
+LD_EXPORT_SYMBOLS_FLAG = -export-dynamic
 LD_NO_UNDEFINED_FLAG = 
 LEX = flex
 LEXLIB = -lfl
@@ -1212,5 +1213,3 @@ install-headers: Makefile
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
-
-

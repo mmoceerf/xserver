@@ -136,7 +136,7 @@ xf86PrintBanner(void)
 #endif
     xf86ErrorFVerb(0, "\nX.Org X Server %d.%d.%d  miPolyRectangle2=%x",
                    XORG_VERSION_MAJOR, XORG_VERSION_MINOR, XORG_VERSION_PATCH,
-                   miPolyRectangle2);
+                   miPolyRectangle);
 #if XORG_VERSION_SNAP > 0
     xf86ErrorFVerb(0, ".%d", XORG_VERSION_SNAP);
 #endif
@@ -489,7 +489,7 @@ InitOutput(ScreenInfo * pScreenInfo, int argc, char **argv)
             }
         }
 
-#if 0				
+#if 1		
         if ((modulelist = xf86DriverlistFromConfig())) {
 						ErrorF("xf86DriverlistFromConfig\n");
             xf86LoadModules(modulelist, NULL);

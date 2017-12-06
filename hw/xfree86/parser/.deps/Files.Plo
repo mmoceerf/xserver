@@ -16,28 +16,36 @@ Files.lo: Files.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/select.h \
  /usr/include/i386-linux-gnu/bits/sigset.h \
  /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/fcntl.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/string3.h /usr/include/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/uio.h \
- /usr/include/i386-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/stat.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h /usr/include/unistd.h \
  /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
  /usr/include/i386-linux-gnu/sys/time.h \
  /usr/include/i386-linux-gnu/bits/timex.h /usr/include/X11/Xarch.h \
  xf86Parser.h /usr/include/X11/Xdefs.h xf86Optrec.h /usr/include/stdio.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
- /usr/include/i386-linux-gnu/bits/sys_errlist.h ../common/xf86Optionstr.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h ../common/xf86Optionstr.h \
  ../../../include/list.h /usr/include/X11/Xfuncproto.h xf86tokens.h \
- Configint.h configProcs.h /usr/include/stdlib.h \
- /usr/include/i386-linux-gnu/bits/waitflags.h \
+ Configint.h configProcs.h /usr/include/i386-linux-gnu/bits/waitflags.h \
  /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/i386-linux-gnu/bits/stdlib-float.h
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h
 
 /usr/include/stdc-predef.h:
 
@@ -87,6 +95,8 @@ Files.lo: Files.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/time.h:
 
+/usr/include/i386-linux-gnu/bits/select2.h:
+
 /usr/include/i386-linux-gnu/sys/sysmacros.h:
 
 /usr/include/i386-linux-gnu/bits/pthreadtypes.h:
@@ -94,6 +104,14 @@ Files.lo: Files.c /usr/include/stdc-predef.h \
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
 
 /usr/include/fcntl.h:
 
@@ -105,6 +123,8 @@ Files.lo: Files.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/stat.h:
 
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
+
 /usr/include/unistd.h:
 
 /usr/include/i386-linux-gnu/bits/posix_opt.h:
@@ -114,6 +134,8 @@ Files.lo: Files.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/confname.h:
 
 /usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
 
 /usr/include/i386-linux-gnu/sys/time.h:
 
@@ -141,6 +163,10 @@ xf86Optrec.h:
 
 /usr/include/i386-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
 ../common/xf86Optionstr.h:
 
 ../../../include/list.h:
@@ -153,12 +179,14 @@ Configint.h:
 
 configProcs.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/i386-linux-gnu/bits/waitflags.h:
 
 /usr/include/i386-linux-gnu/bits/waitstatus.h:
 
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:

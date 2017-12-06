@@ -10,7 +10,9 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
- /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/ctype.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h /usr/include/ctype.h \
  /usr/include/endian.h /usr/include/i386-linux-gnu/bits/endian.h \
  /usr/include/i386-linux-gnu/bits/byteswap.h \
  /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
@@ -21,17 +23,25 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/select.h \
  /usr/include/i386-linux-gnu/bits/sigset.h \
  /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/X11/Xos.h \
- /usr/include/X11/Xosdefs.h /usr/include/string.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/X11/Xos.h \
+ /usr/include/X11/Xosdefs.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h \
+ /usr/include/i386-linux-gnu/bits/string3.h /usr/include/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/uio.h \
- /usr/include/i386-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/stat.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h /usr/include/unistd.h \
  /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
  /usr/include/i386-linux-gnu/sys/time.h \
  /usr/include/i386-linux-gnu/bits/timex.h /usr/include/X11/Xarch.h \
  /usr/include/X11/Xfuncs.h /usr/include/X11/extensions/XKMformat.h \
@@ -58,7 +68,8 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/inf.h \
  /usr/include/i386-linux-gnu/bits/nan.h \
  /usr/include/i386-linux-gnu/bits/mathdef.h \
- /usr/include/i386-linux-gnu/bits/mathcalls.h /usr/include/assert.h \
+ /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h /usr/include/assert.h \
  ../include/inputstr.h /usr/include/X11/extensions/XI2proto.h \
  /usr/include/X11/extensions/XI2.h /usr/include/pixman-1/pixman.h \
  /usr/include/pixman-1/pixman-version.h ../include/input.h \
@@ -108,6 +119,10 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
 /usr/include/ctype.h:
 
 /usr/include/endian.h:
@@ -138,19 +153,31 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/time.h:
 
+/usr/include/i386-linux-gnu/bits/select2.h:
+
 /usr/include/i386-linux-gnu/sys/sysmacros.h:
 
 /usr/include/i386-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
 
 /usr/include/X11/Xos.h:
 
 /usr/include/X11/Xosdefs.h:
 
 /usr/include/string.h:
+
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
 
 /usr/include/fcntl.h:
 
@@ -162,6 +189,8 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/stat.h:
 
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
+
 /usr/include/unistd.h:
 
 /usr/include/i386-linux-gnu/bits/posix_opt.h:
@@ -171,6 +200,8 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/confname.h:
 
 /usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
 
 /usr/include/i386-linux-gnu/sys/time.h:
 
@@ -253,6 +284,8 @@ xkbfmisc.lo: xkbfmisc.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/mathdef.h:
 
 /usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
 
 /usr/include/assert.h:
 

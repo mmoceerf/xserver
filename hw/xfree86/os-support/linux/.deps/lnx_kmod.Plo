@@ -22,12 +22,15 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/select.h \
  /usr/include/i386-linux-gnu/bits/sigset.h \
  /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h \
- /usr/include/i386-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/stat.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h /usr/include/unistd.h \
  /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
  /usr/include/i386-linux-gnu/sys/wait.h /usr/include/signal.h \
  /usr/include/i386-linux-gnu/bits/signum.h \
  /usr/include/i386-linux-gnu/bits/siginfo.h \
@@ -40,23 +43,29 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/waitstatus.h \
  ../../../../hw/xfree86/os-support/xf86_OSlib.h /usr/include/X11/Xos.h \
  /usr/include/X11/Xosdefs.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/string3.h \
  /usr/include/i386-linux-gnu/sys/time.h \
  /usr/include/i386-linux-gnu/bits/timex.h /usr/include/X11/Xarch.h \
  /usr/include/X11/Xfuncproto.h /usr/include/stdio.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
- /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/ctype.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h /usr/include/ctype.h \
  /usr/include/i386-linux-gnu/sys/ioctl.h \
  /usr/include/i386-linux-gnu/bits/ioctls.h \
  /usr/include/i386-linux-gnu/asm/ioctls.h \
  /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
  /usr/include/i386-linux-gnu/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
  /usr/include/i386-linux-gnu/bits/ioctl-types.h \
- /usr/include/i386-linux-gnu/sys/ttydefaults.h /usr/include/stdlib.h \
- /usr/include/alloca.h /usr/include/i386-linux-gnu/bits/stdlib-float.h \
- /usr/include/assert.h /usr/include/termios.h \
- /usr/include/i386-linux-gnu/bits/termios.h \
+ /usr/include/i386-linux-gnu/sys/ttydefaults.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/assert.h \
+ /usr/include/termios.h /usr/include/i386-linux-gnu/bits/termios.h \
  /usr/include/i386-linux-gnu/sys/stat.h \
  /usr/include/i386-linux-gnu/sys/mman.h \
  /usr/include/i386-linux-gnu/bits/mman.h \
@@ -84,6 +93,7 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/nan.h \
  /usr/include/i386-linux-gnu/bits/mathdef.h \
  /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h \
  ../../../../hw/xfree86/os-support/xf86_OSproc.h \
  ../../../../include/opaque.h ../../../../include/globals.h \
  ../../../../include/window.h ../../../../include/region.h \
@@ -192,11 +202,15 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/time.h:
 
+/usr/include/i386-linux-gnu/bits/select2.h:
+
 /usr/include/i386-linux-gnu/sys/sysmacros.h:
 
 /usr/include/i386-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/i386-linux-gnu/bits/stat.h:
+
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
 
 /usr/include/unistd.h:
 
@@ -207,6 +221,8 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/confname.h:
 
 /usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
 
 /usr/include/i386-linux-gnu/sys/wait.h:
 
@@ -240,6 +256,14 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 
 /usr/include/xlocale.h:
 
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
 /usr/include/i386-linux-gnu/sys/time.h:
 
 /usr/include/i386-linux-gnu/bits/timex.h:
@@ -262,6 +286,10 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
 /usr/include/ctype.h:
 
 /usr/include/i386-linux-gnu/sys/ioctl.h:
@@ -282,11 +310,13 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/sys/ttydefaults.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
 
 /usr/include/assert.h:
 
@@ -369,6 +399,8 @@ lnx_kmod.lo: lnx_kmod.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/mathdef.h:
 
 /usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
 
 ../../../../hw/xfree86/os-support/xf86_OSproc.h:
 

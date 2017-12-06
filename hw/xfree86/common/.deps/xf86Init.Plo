@@ -18,9 +18,12 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/select.h \
  /usr/include/i386-linux-gnu/bits/sigset.h \
  /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h /usr/include/errno.h \
  /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
@@ -33,11 +36,15 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
  /usr/include/X11/Xdefs.h /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h \
  /usr/include/stdint.h /usr/include/i386-linux-gnu/bits/wchar.h \
  ../../../include/os.h /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
- /usr/include/string.h /usr/include/stdio.h /usr/include/libio.h \
- /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/string.h /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h \
+ /usr/include/i386-linux-gnu/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h \
- ../../../include/Xprintf.h /usr/include/X11/Xfuncs.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h ../../../include/Xprintf.h \
+ /usr/include/X11/Xfuncs.h \
  /usr/lib/gcc/i686-linux-gnu/5/include-fixed/limits.h \
  /usr/lib/gcc/i686-linux-gnu/5/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
@@ -52,7 +59,8 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/inf.h \
  /usr/include/i386-linux-gnu/bits/nan.h \
  /usr/include/i386-linux-gnu/bits/mathdef.h \
- /usr/include/i386-linux-gnu/bits/mathcalls.h /usr/include/assert.h \
+ /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h /usr/include/assert.h \
  /usr/include/ctype.h ../../../include/screenint.h \
  ../../../include/window.h ../../../include/region.h \
  ../../../include/regionstr.h ../../../include/miscstruct.h \
@@ -112,10 +120,12 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/uio.h \
- /usr/include/i386-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/stat.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h /usr/include/unistd.h \
  /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
  /usr/include/i386-linux-gnu/sys/time.h \
  /usr/include/i386-linux-gnu/bits/timex.h \
  /usr/include/i386-linux-gnu/sys/ioctl.h \
@@ -197,13 +207,19 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
 
 /usr/include/i386-linux-gnu/bits/time.h:
 
+/usr/include/i386-linux-gnu/bits/select2.h:
+
 /usr/include/i386-linux-gnu/sys/sysmacros.h:
 
 /usr/include/i386-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
 
 /usr/include/errno.h:
 
@@ -253,6 +269,12 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
 
 /usr/include/string.h:
 
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
 /usr/include/stdio.h:
 
 /usr/include/libio.h:
@@ -264,6 +286,10 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
 
 ../../../include/Xprintf.h:
 
@@ -304,6 +330,8 @@ xf86Init.lo: xf86Init.c /usr/include/stdc-predef.h \
 /usr/include/i386-linux-gnu/bits/mathdef.h:
 
 /usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
 
 /usr/include/assert.h:
 
@@ -535,6 +563,8 @@ xf86Optionstr.h:
 
 /usr/include/i386-linux-gnu/bits/stat.h:
 
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
+
 /usr/include/unistd.h:
 
 /usr/include/i386-linux-gnu/bits/posix_opt.h:
@@ -544,6 +574,8 @@ xf86Optionstr.h:
 /usr/include/i386-linux-gnu/bits/confname.h:
 
 /usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
 
 /usr/include/i386-linux-gnu/sys/time.h:
 
